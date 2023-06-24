@@ -38,8 +38,10 @@ const mulheres = [
 ]
 
 function mostraMulheres(request, response){
-
+  response.json(mulheres)
 }
+
+
 
 function mostraPorta() {
 console.log("servidor criado e rodando na porta", porta)
